@@ -32,7 +32,6 @@ while True:
         sql = "SELECT * FROM jobcrawler WHERE tweet_id > %s"
     # Execute the query
     cursor.execute(sql, (last_tweet_id,))
-    cursor.()
 
     # Loop through the tweets and check if they are job offers
     while True:
